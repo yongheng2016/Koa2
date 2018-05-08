@@ -25,6 +25,7 @@ async function route(url) {
             break
     }
     let html =await render(page)
+    console.log(html)
     return html
 }
 
